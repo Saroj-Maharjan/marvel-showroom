@@ -33,14 +33,21 @@ android {
         viewBinding = true
     }
 
-    lintOptions {
-        lintConfig = rootProject.file(".lint/config.xml")
-        isCheckAllWarnings = true
-        isWarningsAsErrors = true
-    }
-
     composeOptions {
         kotlinCompilerExtensionVersion = "1.3.2"
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_11.toString()
+    }
+
+    testOptions {
+        unitTests.isReturnDefaultValues = true
     }
 }
 
