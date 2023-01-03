@@ -29,7 +29,7 @@
 
 /* ktlint-disable */
 
-package gradle.kotlin.dsl.plugins._9e106b6405e4fd19bd2c6c11ca0b3b83
+package gradle.kotlin.dsl.plugins._76c88acd7cc549bdc942f8419a22d243
 
 import org.gradle.plugin.use.PluginDependenciesSpec
 import org.gradle.plugin.use.PluginDependencySpec
@@ -564,14 +564,6 @@ val `PluginDependenciesSpec`.`kotlin-android-extensions`: PluginDependencySpec
 
 
 /**
- * The `kotlin-dce-js` plugin implemented by [org.jetbrains.kotlin.gradle.plugin.KotlinJsDcePlugin].
- */
-internal
-val `PluginDependenciesSpec`.`kotlin-dce-js`: PluginDependencySpec
-    get() = this.id("kotlin-dce-js")
-
-
-/**
  * The `kotlin-kapt` plugin implemented by [org.jetbrains.kotlin.gradle.internal.Kapt3GradleSubplugin].
  */
 internal
@@ -649,14 +641,6 @@ val `PluginDependenciesSpec`.`kotlin-platform-jvm`: PluginDependencySpec
 internal
 val `PluginDependenciesSpec`.`kotlin-scripting`: PluginDependencySpec
     get() = this.id("kotlin-scripting")
-
-
-/**
- * The `kotlin2js` plugin implemented by [org.jetbrains.kotlin.gradle.plugin.Kotlin2JsPluginWrapper].
- */
-internal
-val `PluginDependenciesSpec`.`kotlin2js`: PluginDependencySpec
-    get() = this.id("kotlin2js")
 
 
 /**

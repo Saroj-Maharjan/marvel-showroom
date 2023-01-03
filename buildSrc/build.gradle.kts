@@ -16,7 +16,7 @@ repositories {
 object Dependencies {
     object Versions {
         const val androidGradlePlugin = "7.3.1"
-        const val kotlinGradlePlugin = "1.6.10"
+        const val kotlinGradlePlugin = "1.7.20"
 
         const val detektGradlePlugin = "1.16.0"
         const val gradleVersion = "0.33.0"

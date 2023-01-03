@@ -38,6 +38,10 @@ android {
         isCheckAllWarnings = true
         isWarningsAsErrors = true
     }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.3.2"
+    }
 }
 
 junitJacoco {
@@ -47,7 +51,7 @@ junitJacoco {
 dependencies {
     implementation(Dependencies.core)
     implementation(Dependencies.lifecycleRuntime)
-    implementation(Dependencies.composeActivity)
+    implementation(Dependencies.activityX)
     implementation(Dependencies.composeUI)
     implementation(Dependencies.composeUITooling)
     implementation(Dependencies.composeMaterial)

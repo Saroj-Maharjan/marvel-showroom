@@ -7,6 +7,7 @@ package dependencies
 object Versions {
     const val KOTLIN = "1.7.20"
     const val COMPOSE_COMPILER = "1.3.2"
+    const val ACTIVITY = "1.6.1"
     const val MATERIAL3 = "1.0.0-alpha03"
     const val CORE = "1.9.0"
     const val LIFECYCLE = "2.5.1"
