@@ -37,7 +37,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Spotless check
-        run: ./gradlew spotlessCheck
+        run: ./gradlew spotlessKotlinCheck
 
       - name: Static Analysis
         run: ./gradlew ktlint detekt
